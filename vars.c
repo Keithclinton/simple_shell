@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * is_chain - test if current char in buffer is a chain delimeter
- * @info: the parameter struct
+ * is_chain - test if current char in buffer is a chain delimeter or not
+ * @info: the parameter struct representatrion
  * @buf: the char buffer
  * @p: address of current position in buf
  *
- * Return: 1 if chain delimeter, 0 otherwise
+ * Return: 1 if chain delimeter, 0 otherwise will be sucess
  */
 int is_chain(info_t *info, char *buf, size_t *p)
 {
